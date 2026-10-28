@@ -1,0 +1,1053 @@
+[INFO] Scanning for projects...
+[INFO] Loaded 24205 auto-discovered prefixes for remote repository central (prefixes-central.txt)
+[INFO] 
+[INFO] --------------------< com.tiendasneto:neto-ventas >---------------------
+[INFO] Building NETO Sistema de Ventas 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.1.1:run (default-cli) > test-compile @ neto-ventas >>>
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ neto-ventas ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ neto-ventas ---
+[INFO] Loaded 74 auto-discovered prefixes for remote repository apache.snapshots (prefixes-apache.snapshots.txt)
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ neto-ventas ---
+[INFO] skip non existing resourceDirectory C:\Users\HP VICTUS\Downloads\servicioo\servicioo\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ neto-ventas ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:4.1.1:run (default-cli) < test-compile @ neto-ventas <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.1.1:run (default-cli) @ neto-ventas ---
+[INFO] Loaded 50 auto-discovered prefixes for remote repository ow2-snapshot (prefixes-ow2-snapshot.txt)
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-10-22T23:07:54.477-06:00  INFO 24560 --- [neto-ventas] [           main] c.u.servicioo.ServiciooApplication       : Starting ServiciooApplication using Java 27 with PID 24560 (C:\Users\HP VICTUS\Downloads\servicioo\servicioo\target\classes started by HP VICTUS in C:\Users\HP VICTUS\Downloads\servicioo\servicioo)
+2026-10-22T23:07:54.483-06:00  INFO 24560 --- [neto-ventas] [           main] c.u.servicioo.ServiciooApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-10-22T23:07:54.485-06:00 DEBUG 24560 --- [neto-ventas] [           main] o.s.boot.SpringApplication               : Loading source class com.universidad.servicioo.ServiciooApplication
+2026-10-22T23:07:54.562-06:00 DEBUG 24560 --- [neto-ventas] [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext@662706a7
+2026-10-22T23:07:55.427-06:00  INFO 24560 --- [neto-ventas] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-22T23:07:55.460-06:00 DEBUG 24560 --- [neto-ventas] [           main] o.s.b.a.AutoConfigurationPackages        : @EnableAutoConfiguration was declared on a class in the package 'com.universidad.servicioo'. Automatic @Repository and @Entity scanning is enabled.
+2026-10-22T23:07:55.532-06:00  INFO 24560 --- [neto-ventas] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 3 JPA repository interfaces.
+2026-10-22T23:07:56.297-06:00 DEBUG 24560 --- [neto-ventas] [           main] o.s.b.t.s.TomcatServletWebServerFactory  : Code archive: C:\Users\HP VICTUS\.m2\repository\org\springframework\boot\spring-boot-web-server\4.1.1\spring-boot-web-server-4.1.1.jar
+2026-10-22T23:07:56.298-06:00 DEBUG 24560 --- [neto-ventas] [           main] o.s.b.t.s.TomcatServletWebServerFactory  : Code archive: C:\Users\HP VICTUS\.m2\repository\org\springframework\boot\spring-boot-web-server\4.1.1\spring-boot-web-server-4.1.1.jar
+2026-10-22T23:07:56.299-06:00 DEBUG 24560 --- [neto-ventas] [           main] o.s.b.t.s.TomcatServletWebServerFactory  : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2026-10-22T23:07:56.345-06:00  INFO 24560 --- [neto-ventas] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-22T23:07:56.372-06:00  INFO 24560 --- [neto-ventas] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-22T23:07:56.373-06:00  INFO 24560 --- [neto-ventas] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-22T23:07:56.520-06:00 DEBUG 24560 --- [neto-ventas] [           main] b.w.c.s.WebApplicationContextInitializer : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2026-10-22T23:07:56.522-06:00  INFO 24560 --- [neto-ventas] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1960 ms
+2026-10-22T23:07:56.541-06:00 DEBUG 24560 --- [neto-ventas] [           main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2026-10-22T23:07:56.542-06:00 DEBUG 24560 --- [neto-ventas] [           main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2026-10-22T23:07:56.598-06:00 DEBUG 24560 --- [neto-ventas] [           main] o.s.b.s.f.OrderedRequestContextFilter    : Filter 'requestContextFilter' configured for use
+2026-10-22T23:07:56.600-06:00 DEBUG 24560 --- [neto-ventas] [           main] o.s.b.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2026-10-22T23:07:56.601-06:00 DEBUG 24560 --- [neto-ventas] [           main] o.s.b.s.filter.OrderedFormContentFilter  : Filter 'formContentFilter' configured for use
+2026-10-22T23:07:56.833-06:00  INFO 24560 --- [neto-ventas] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-22T23:07:56.953-06:00  INFO 24560 --- [neto-ventas] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-10-22T23:07:57.776-06:00  INFO 24560 --- [neto-ventas] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-22T23:07:57.837-06:00  INFO 24560 --- [neto-ventas] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-22T23:07:58.114-06:00  INFO 24560 --- [neto-ventas] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@693f2c89
+2026-10-22T23:07:58.116-06:00  INFO 24560 --- [neto-ventas] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-22T23:07:58.200-06:00  WARN 24560 --- [neto-ventas] [           main] org.hibernate.orm.core                   : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-10-22T23:07:58.231-06:00  INFO 24560 --- [neto-ventas] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/tienda_neto?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: tienda_neto/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-22T23:07:59.574-06:00  INFO 24560 --- [neto-ventas] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-22T23:07:59.668-06:00 DEBUG 24560 --- [neto-ventas] [           main] org.hibernate.SQL                        : create table productos (id bigint not null auto_increment, activo bit not null, categoria varchar(80), codigo varchar(40) not null, nombre varchar(160) not null, precio decimal(10,2) not null, primary key (id)) engine=InnoDB
+Hibernate: create table productos (id bigint not null auto_increment, activo bit not null, categoria varchar(80), codigo varchar(40) not null, nombre varchar(160) not null, precio decimal(10,2) not null, primary key (id)) engine=InnoDB
+2026-10-22T23:07:59.695-06:00 DEBUG 24560 --- [neto-ventas] [           main] org.hibernate.SQL                        : create table sucursales (id bigint not null auto_increment, activa bit not null, codigo varchar(30) not null, nombre varchar(140) not null, primary key (id)) engine=InnoDB
+Hibernate: create table sucursales (id bigint not null auto_increment, activa bit not null, codigo varchar(30) not null, nombre varchar(140) not null, primary key (id)) engine=InnoDB
+2026-10-22T23:07:59.708-06:00 DEBUG 24560 --- [neto-ventas] [           main] org.hibernate.SQL                        : alter table ventas add column sucursal varchar(140)
+Hibernate: alter table ventas add column sucursal varchar(140)
+2026-10-22T23:07:59.725-06:00 DEBUG 24560 --- [neto-ventas] [           main] org.hibernate.SQL                        : alter table productos drop index UKh04wpyqwddobltuqq56cp6s05
+Hibernate: alter table productos drop index UKh04wpyqwddobltuqq56cp6s05
+2026-10-22T23:07:59.755-06:00 DEBUG 24560 --- [neto-ventas] [           main] org.hibernate.SQL                        : alter table productos add constraint UKh04wpyqwddobltuqq56cp6s05 unique (codigo)
+Hibernate: alter table productos add constraint UKh04wpyqwddobltuqq56cp6s05 unique (codigo)
+2026-10-22T23:07:59.768-06:00 DEBUG 24560 --- [neto-ventas] [           main] org.hibernate.SQL                        : alter table productos drop index UKmlgw7js72hh2xtd4mvpdqfsbe
+Hibernate: alter table productos drop index UKmlgw7js72hh2xtd4mvpdqfsbe
+2026-10-22T23:07:59.770-06:00 DEBUG 24560 --- [neto-ventas] [           main] org.hibernate.SQL                        : alter table productos add constraint UKmlgw7js72hh2xtd4mvpdqfsbe unique (nombre)
+Hibernate: alter table productos add constraint UKmlgw7js72hh2xtd4mvpdqfsbe unique (nombre)
+2026-10-22T23:07:59.785-06:00 DEBUG 24560 --- [neto-ventas] [           main] org.hibernate.SQL                        : alter table sucursales drop index UKklsqv8ucmf2wp1707dhdwkt6l
+Hibernate: alter table sucursales drop index UKklsqv8ucmf2wp1707dhdwkt6l
+2026-10-22T23:07:59.788-06:00 DEBUG 24560 --- [neto-ventas] [           main] org.hibernate.SQL                        : alter table sucursales add constraint UKklsqv8ucmf2wp1707dhdwkt6l unique (codigo)
+Hibernate: alter table sucursales add constraint UKklsqv8ucmf2wp1707dhdwkt6l unique (codigo)
+2026-10-22T23:07:59.801-06:00  INFO 24560 --- [neto-ventas] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-22T23:07:59.918-06:00  INFO 24560 --- [neto-ventas] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-22T23:08:00.604-06:00 DEBUG 24560 --- [neto-ventas] [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 12 mappings in 'requestMappingHandlerMapping'
+2026-10-22T23:08:00.634-06:00 DEBUG 24560 --- [neto-ventas] [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-10-22T23:08:00.663-06:00 DEBUG 24560 --- [neto-ventas] [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-10-22T23:08:00.725-06:00 DEBUG 24560 --- [neto-ventas] [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-10-22T23:08:00.867-06:00  INFO 24560 --- [neto-ventas] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-22T23:08:00.875-06:00 DEBUG 24560 --- [neto-ventas] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+
+============================
+CONDITIONS EVALUATION REPORT
+============================
+
+
+Positive matches:
+-----------------
+
+   AopAutoConfiguration matched:
+      - @ConditionalOnBooleanProperty (spring.aop.auto=true) matched (OnPropertyCondition)
+
+   AopAutoConfiguration.AspectJAutoProxyingConfiguration matched:
+      - @ConditionalOnClass found required class 'org.aspectj.weaver.Advice' (OnClassCondition)
+
+   AopAutoConfiguration.AspectJAutoProxyingConfiguration.CglibAutoProxyConfiguration matched:
+      - @ConditionalOnBooleanProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
+
+   ApplicationAvailabilityAutoConfiguration#applicationAvailability matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.availability.ApplicationAvailability; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataJpaRepositoriesAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.data.jpa.repository.JpaRepository' (OnClassCondition)
+      - @ConditionalOnBooleanProperty (spring.data.jpa.repositories.enabled=true) matched (OnPropertyCondition)
+      - @ConditionalOnBean (types: javax.sql.DataSource; SearchStrategy: all) found bean 'dataSource'; @ConditionalOnMissingBean (types: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean,org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+      - @ConditionalOnMissingBean (types: io.r2dbc.spi.ConnectionFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceAutoConfiguration.PooledDataSourceConfiguration matched:
+      - AnyNestedCondition 1 matched 1 did not; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.PooledDataSourceAvailable PooledDataSource found supported DataSource; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.ExplicitType @ConditionalOnProperty (spring.datasource.type) did not find property 'spring.datasource.type' (DataSourceAutoConfiguration.PooledDataSourceCondition)
+      - @ConditionalOnMissingBean (types: javax.sql.DataSource,javax.sql.XADataSource; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceAutoConfiguration.PooledDataSourceConfiguration#jdbcConnectionDetails matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.jdbc.autoconfigure.JdbcConnectionDetails; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceConfiguration.Hikari matched:
+      - @ConditionalOnClass found required class 'com.zaxxer.hikari.HikariDataSource' (OnClassCondition)
+      - @ConditionalOnProperty (spring.datasource.type=com.zaxxer.hikari.HikariDataSource) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: javax.sql.DataSource; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceInitializationAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.jdbc.datasource.init.DatabasePopulator' (OnClassCondition)
+      - SQL InitializationDatabase Initialization default value is EMBEDDED (OnSqlInitializationCondition)
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a single bean 'dataSource'; @ConditionalOnMissingBean (types: org.springframework.boot.sql.autoconfigure.init.ApplicationScriptDatabaseInitializer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.HikariPoolDataSourceMetadataProviderConfiguration matched:
+      - @ConditionalOnClass found required class 'com.zaxxer.hikari.HikariDataSource' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.core.JdbcTemplate', 'org.springframework.transaction.TransactionManager' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration.JdbcTransactionManagerConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a single bean 'dataSource' (OnBeanCondition)
+
+   DataWebAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.data.web.PageableHandlerMethodArgumentResolver', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.data.web.PageableHandlerMethodArgumentResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataWebAutoConfiguration#pageableCustomizer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.web.config.PageableHandlerMethodArgumentResolverCustomizer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataWebAutoConfiguration#sortCustomizer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.web.config.SortHandlerMethodArgumentResolverCustomizer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataWebAutoConfiguration#springDataWebSettings matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.web.config.SpringDataWebSettings; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DispatcherServletAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletConfiguration matched:
+      - @ConditionalOnClass found required class 'jakarta.servlet.ServletRegistration' (OnClassCondition)
+      - Default DispatcherServlet did not find dispatcher servlet beans (DispatcherServletAutoConfiguration.DefaultDispatcherServletCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration matched:
+      - @ConditionalOnClass found required class 'jakarta.servlet.ServletRegistration' (OnClassCondition)
+      - DispatcherServlet Registration did not find servlet registration bean (DispatcherServletAutoConfiguration.DispatcherServletRegistrationCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration#dispatcherServletRegistration matched:
+      - @ConditionalOnBean (names: dispatcherServlet types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet' (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   ErrorMvcAutoConfiguration#basicErrorController matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.webmvc.error.ErrorController; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration#errorAttributes matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.webmvc.error.ErrorAttributes; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.DefaultErrorViewResolverConfiguration#conventionErrorViewResolver matched:
+      - @ConditionalOnBean (types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet'; @ConditionalOnMissingBean (types: org.springframework.boot.webmvc.autoconfigure.error.ErrorViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration matched:
+      - @ConditionalOnBooleanProperty (spring.web.error.whitelabel.enabled=true) matched (OnPropertyCondition)
+      - ErrorTemplate Missing did not find error template view (ErrorMvcAutoConfiguration.ErrorTemplateMissingCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#beanNameViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#defaultErrorView matched:
+      - @ConditionalOnMissingBean (names: error; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HibernateJpaAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean', 'jakarta.persistence.EntityManager', 'org.hibernate.engine.spi.SessionImplementor' (OnClassCondition)
+
+   HibernateJpaConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a single bean 'dataSource' (OnBeanCondition)
+
+   HttpEncodingAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.filter.CharacterEncodingFilter' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnBooleanProperty (spring.servlet.encoding.enabled=true) matched (OnPropertyCondition)
+
+   HttpEncodingAutoConfiguration#characterEncodingFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.CharacterEncodingFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HttpMessageConvertersAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.HttpMessageConverter' (OnClassCondition)
+      - NoneNestedConditions 0 matched 1 did not; NestedCondition on HttpMessageConvertersAutoConfiguration.NotReactiveWebApplicationCondition.ReactiveWebApplication did not find reactive web application classes (HttpMessageConvertersAutoConfiguration.NotReactiveWebApplicationCondition)
+
+   HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration#stringHttpMessageConvertersCustomizer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.StringHttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'tools.jackson.databind.json.JsonMapper' (OnClassCondition)
+
+   JacksonAutoConfiguration#jacksonJsonMapper matched:
+      - @ConditionalOnMissingBean (types: tools.jackson.databind.json.JsonMapper; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration#jsonFactory matched:
+      - @ConditionalOnMissingBean (types: tools.jackson.core.json.JsonFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration#jsonMapperBuilder matched:
+      - @ConditionalOnMissingBean (types: tools.jackson.databind.json.JsonMapper$Builder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration.JsonProblemDetailsConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.ProblemDetail' (OnClassCondition)
+
+   JacksonHttpMessageConvertersConfiguration.JacksonJsonHttpMessageConverterConfiguration matched:
+      - @ConditionalOnClass found required class 'tools.jackson.databind.json.JsonMapper' (OnClassCondition)
+      - @ConditionalOnProperty (spring.http.converters.preferred-json-mapper=jackson) matched (OnPropertyCondition)
+      - @ConditionalOnBean (types: tools.jackson.databind.json.JsonMapper; SearchStrategy: all) found bean 'jacksonJsonMapper' (OnBeanCondition)
+
+   JacksonHttpMessageConvertersConfiguration.JacksonJsonHttpMessageConverterConfiguration#jacksonJsonHttpMessageConvertersCustomizer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.json.JacksonJsonHttpMessageConverter ignored: org.springframework.hateoas.server.mvc.TypeConstrainedJacksonJsonHttpMessageConverter,org.springframework.data.rest.webmvc.alps.AlpsJacksonJsonHttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JdbcClientAutoConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate; SearchStrategy: all) found a single bean 'namedParameterJdbcTemplate'; @ConditionalOnMissingBean (types: org.springframework.jdbc.core.simple.JdbcClient; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JdbcTemplateAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.core.JdbcTemplate' (OnClassCondition)
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a single bean 'dataSource' (OnBeanCondition)
+
+   JdbcTemplateConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.springframework.jdbc.core.JdbcOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration#entityManagerFactory matched:
+      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean,jakarta.persistence.EntityManagerFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration#entityManagerFactoryBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.jpa.EntityManagerFactoryBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration#jpaVendorAdapter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.JpaVendorAdapter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration#transactionManager matched:
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration.PersistenceManagedTypesConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean,jakarta.persistence.EntityManagerFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration.PersistenceManagedTypesConfiguration#persistenceManagedTypes matched:
+      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.persistenceunit.PersistenceManagedTypes; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JtaAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'jakarta.transaction.Transaction' (OnClassCondition)
+      - @ConditionalOnBooleanProperty (spring.jta.enabled=true) matched (OnPropertyCondition)
+
+   LifecycleAutoConfiguration#defaultLifecycleProcessor matched:
+      - @ConditionalOnMissingBean (names: lifecycleProcessor; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   MultipartAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.multipart.support.StandardServletMultipartResolver', 'jakarta.servlet.MultipartConfigElement' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnBooleanProperty (spring.servlet.multipart.enabled=true) matched (OnPropertyCondition)
+
+   MultipartAutoConfiguration#multipartConfigElement matched:
+      - @ConditionalOnMissingBean (types: jakarta.servlet.MultipartConfigElement; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MultipartAutoConfiguration#multipartResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   NamedParameterJdbcTemplateConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: org.springframework.jdbc.core.JdbcTemplate; SearchStrategy: all) found a single bean 'jdbcTemplate'; @ConditionalOnMissingBean (types: org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   PersistenceExceptionTranslationAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor' (OnClassCondition)
+
+   PersistenceExceptionTranslationAutoConfiguration#persistenceExceptionTranslationPostProcessor matched:
+      - @ConditionalOnBooleanProperty (spring.persistence.exceptiontranslation.enabled=true) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   PropertyPlaceholderAutoConfiguration#propertySourcesPlaceholderConfigurer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.context.support.PropertySourcesPlaceholderConfigurer; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   SslAutoConfiguration#sslBundleRegistry matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.ssl.SslBundleRegistry,org.springframework.boot.ssl.SslBundles; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutionAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor' (OnClassCondition)
+
+   TaskExecutorConfigurations.AsyncConfigurerConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.springframework.scheduling.annotation.AsyncConfigurer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutorConfigurations.SimpleAsyncTaskExecutorBuilderConfiguration#simpleAsyncTaskExecutorBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration matched:
+      - AnyNestedCondition 1 matched 1 did not; NestedCondition on TaskExecutorConfigurations.OnExecutorCondition.ModelCondition @ConditionalOnProperty (spring.task.execution.mode=force) did not find property 'spring.task.execution.mode'; NestedCondition on TaskExecutorConfigurations.OnExecutorCondition.ExecutorBeanCondition @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) did not find any beans (TaskExecutorConfigurations.OnExecutorCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration#applicationTaskExecutor matched:
+      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
+
+   TaskExecutorConfigurations.ThreadPoolTaskExecutorBuilderConfiguration#threadPoolTaskExecutorBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.ThreadPoolTaskExecutorBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskSchedulingAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler' (OnClassCondition)
+
+   TaskSchedulingConfigurations.SimpleAsyncTaskSchedulerBuilderConfiguration#simpleAsyncTaskSchedulerBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
+
+   TaskSchedulingConfigurations.ThreadPoolTaskSchedulerBuilderConfiguration#threadPoolTaskSchedulerBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.ThreadPoolTaskSchedulerBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TomcatServletWebServerAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.ServletRequest', 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol', 'org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   TomcatServletWebServerAutoConfiguration#tomcatServletWebServerFactory matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.server.servlet.ServletWebServerFactory; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   TomcatWebServerConfiguration matched:
+      - @ConditionalOnWarDeployment the application is not deployed as a WAR file. (OnWarDeploymentCondition)
+
+   TomcatWebServerConfiguration.TomcatWebSocketConfiguration matched:
+      - @ConditionalOnClass found required class 'org.apache.tomcat.websocket.server.WsSci' (OnClassCondition)
+
+   TransactionAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.transaction.PlatformTransactionManager' (OnClassCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration matched:
+      - @ConditionalOnBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) found bean 'transactionManager'; @ConditionalOnMissingBean (types: org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration.CglibAutoProxyConfiguration matched:
+      - @ConditionalOnBooleanProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
+
+   TransactionAutoConfiguration.TransactionTemplateConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) found a single bean 'transactionManager' (OnBeanCondition)
+
+   TransactionAutoConfiguration.TransactionTemplateConfiguration#transactionTemplate matched:
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.support.TransactionOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionManagerCustomizationAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.transaction.PlatformTransactionManager' (OnClassCondition)
+
+   TransactionManagerCustomizationAutoConfiguration#platformTransactionManagerCustomizers matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.transaction.autoconfigure.TransactionManagerCustomizers; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration#formContentFilter matched:
+      - @ConditionalOnBooleanProperty (spring.mvc.formcontent.filter.enabled=true) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.FormContentFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#flashMapManager matched:
+      - @ConditionalOnMissingBean (names: flashMapManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#localeResolver matched:
+      - @ConditionalOnMissingBean (names: localeResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#viewNameTranslator matched:
+      - @ConditionalOnMissingBean (names: viewNameTranslator; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#defaultViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.InternalResourceViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#requestContextFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.context.request.RequestContextListener,org.springframework.web.filter.RequestContextFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#viewResolver matched:
+      - @ConditionalOnBean (types: org.springframework.web.servlet.ViewResolver; SearchStrategy: all) found beans 'defaultViewResolver', 'beanNameViewResolver', 'mvcViewResolver'; @ConditionalOnMissingBean (names: viewResolver types: org.springframework.web.servlet.view.ContentNegotiatingViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   AopAutoConfiguration.AspectJAutoProxyingConfiguration.JdkDynamicAutoProxyConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.aop.proxy-target-class=false) did not find property 'spring.aop.proxy-target-class' (OnPropertyCondition)
+
+   AopAutoConfiguration.ClassProxyingConfiguration:
+      Did not match:
+         - @ConditionalOnMissingClass found unwanted class 'org.aspectj.weaver.Advice' (OnClassCondition)
+
+   DataJpaRepositoriesAutoConfiguration#entityManagerFactoryBootstrapExecutorCustomizer:
+      Did not match:
+         - @ConditionalOnProperty (spring.data.jpa.repositories.bootstrap-mode=deferred) did not find property 'spring.data.jpa.repositories.bootstrap-mode' (OnPropertyCondition)
+
+   DataRepositoryMetricsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean did not find required type 'io.micrometer.core.instrument.MeterRegistry' (OnBeanCondition)
+
+   DataSourceAutoConfiguration.EmbeddedDatabaseConfiguration:
+      Did not match:
+         - EmbeddedDataSource spring.datasource.url is set (DataSourceAutoConfiguration.EmbeddedDatabaseCondition)
+
+   DataSourceCheckpointRestoreConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.crac.Resource' (OnClassCondition)
+
+   DataSourceConfiguration.Dbcp2:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.commons.dbcp2.BasicDataSource' (OnClassCondition)
+
+   DataSourceConfiguration.Generic:
+      Did not match:
+         - @ConditionalOnProperty (spring.datasource.type) did not find property 'spring.datasource.type' (OnPropertyCondition)
+
+   DataSourceConfiguration.OracleUcp:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'oracle.ucp.jdbc.PoolDataSourceImpl', 'oracle.jdbc.OracleConnection' (OnClassCondition)
+
+   DataSourceConfiguration.Tomcat:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.tomcat.jdbc.pool.DataSource' (OnClassCondition)
+
+   DataSourceHealthContributorAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.health.autoconfigure.contributor.ConditionalOnEnabledHealthIndicator' (OnClassCondition)
+
+   DataSourceJmxConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.jmx.enabled=true) did not find property 'spring.jmx.enabled' (OnPropertyCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.CommonsDbcp2PoolDataSourceMetadataProviderConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.commons.dbcp2.BasicDataSource' (OnClassCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.OracleUcpPoolDataSourceMetadataProviderConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'oracle.ucp.jdbc.PoolDataSource', 'oracle.jdbc.OracleConnection' (OnClassCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.TomcatDataSourcePoolMetadataProviderConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.tomcat.jdbc.pool.DataSource' (OnClassCondition)
+
+   DataSourcePoolMetricsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.core.instrument.MeterRegistry' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration.JdbcTransactionManagerConfiguration#transactionManager:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) found beans of type 'org.springframework.transaction.TransactionManager' transactionManager (OnBeanCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletConfiguration#multipartResolver:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans of type org.springframework.web.multipart.MultipartResolver (OnBeanCondition)
+
+   GsonHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.google.gson.Gson' (OnClassCondition)
+
+   H2ConsoleAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.h2.console.enabled=true) did not find property 'spring.h2.console.enabled' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.h2.server.web.JakartaWebServlet' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+   HibernateMetricsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.core.instrument.MeterRegistry' (OnClassCondition)
+
+   Jackson2HttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.fasterxml.jackson.databind.ObjectMapper' (OnClassCondition)
+
+   Jackson2HttpMessageConvertersConfiguration.MappingJackson2XmlHttpMessageConverterConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.fasterxml.jackson.dataformat.xml.XmlMapper' (OnClassCondition)
+
+   JacksonAutoConfiguration.CborConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'tools.jackson.dataformat.cbor.CBORMapper' (OnClassCondition)
+
+   JacksonAutoConfiguration.XmlConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'tools.jackson.dataformat.xml.XmlMapper' (OnClassCondition)
+
+   JacksonHttpMessageConvertersConfiguration.JacksonXmlHttpMessageConverterConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'tools.jackson.dataformat.xml.XmlMapper' (OnClassCondition)
+
+   JmxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.jmx.enabled=true) did not find property 'spring.jmx.enabled' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.jmx.export.MBeanExporter' (OnClassCondition)
+
+   JndiDataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.datasource.jndi-name) did not find property 'spring.datasource.jndi-name' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+
+   JndiJtaConfiguration:
+      Did not match:
+         - @ConditionalOnJndi JNDI environment is not available (OnJndiCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.transaction.jta.JtaTransactionManager' (OnClassCondition)
+
+   JpaBaseConfiguration.JpaWebConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.jpa.open-in-view=true) found different value in property 'spring.jpa.open-in-view' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+   JsonbHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.json.bind.Jsonb' (OnClassCondition)
+
+   KotlinSerializationHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'kotlinx.serialization.Serializable', 'kotlinx.serialization.json.Json' (OnClassCondition)
+
+   LazyConnectionDataSourceConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.datasource.connection-fetch=lazy) did not find property 'spring.datasource.connection-fetch' (OnPropertyCondition)
+
+   MessageSourceAutoConfiguration:
+      Did not match:
+         - ResourceBundle did not find bundle with basename messages (MessageSourceAutoConfiguration.ResourceBundleCondition)
+
+   ProjectInfoAutoConfiguration#buildProperties:
+      Did not match:
+         - @ConditionalOnResource did not find resource '${spring.info.build.location:classpath:META-INF/build-info.properties}' (OnResourceCondition)
+
+   ProjectInfoAutoConfiguration#gitProperties:
+      Did not match:
+         - GitResource did not find git info at classpath:git.properties (ProjectInfoAutoConfiguration.GitResourceAvailableCondition)
+
+   ServletHttpExchangesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean did not find required type 'org.springframework.boot.actuate.web.exchanges.HttpExchangeRepository' (OnBeanCondition)
+
+   ServletManagementContextAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointProperties' (OnClassCondition)
+
+   ServletMappingsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.actuate.autoconfigure.endpoint.condition.ConditionalOnAvailableEndpoint' (OnClassCondition)
+
+   ServletWebServerConfiguration#forwardedHeaderFilter:
+      Did not match:
+         - @ConditionalOnProperty (server.forward-headers-strategy=framework) did not find property 'server.forward-headers-strategy' (OnPropertyCondition)
+
+   SpringApplicationAdminJmxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.application.admin.enabled=true) did not find property 'spring.application.admin.enabled' (OnPropertyCondition)
+
+   TaskExecutorConfigurations.AsyncConfigurerWrapperConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.scheduling.annotation.AsyncConfigurer; SearchStrategy: all) did not find any beans of type org.springframework.scheduling.annotation.AsyncConfigurer (OnBeanCondition)
+
+   TaskExecutorConfigurations.SimpleAsyncTaskExecutorBuilderConfiguration#simpleAsyncTaskExecutorBuilderVirtualThreads:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder; SearchStrategy: all) found beans of type 'org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder' simpleAsyncTaskExecutorBuilder (OnBeanCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration#applicationTaskExecutorVirtualThreads:
+      Did not match:
+         - @ConditionalOnThreading did not find VIRTUAL (OnThreadingCondition)
+
+   TaskExecutorConfigurations.TaskExecutorContextPropagationConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.context.ContextSnapshot' (OnClassCondition)
+
+   TaskSchedulingAutoConfiguration#scheduledBeanLazyInitializationExcludeFilter:
+      Did not match:
+         - @ConditionalOnBean (names: org.springframework.scheduling.config.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.scheduling.config.internalScheduledAnnotationProcessor (OnBeanCondition)
+
+   TaskSchedulingConfigurations.SimpleAsyncTaskSchedulerBuilderConfiguration#simpleAsyncTaskSchedulerBuilderVirtualThreads:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder; SearchStrategy: all) found beans of type 'org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder' simpleAsyncTaskSchedulerBuilder (OnBeanCondition)
+
+   TaskSchedulingConfigurations.TaskSchedulerConfiguration:
+      Did not match:
+         - @ConditionalOnBean (names: org.springframework.scheduling.config.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.scheduling.config.internalScheduledAnnotationProcessor (OnBeanCondition)
+
+   TomcatMetricsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.core.instrument.binder.tomcat.TomcatMetrics' (OnClassCondition)
+
+   TomcatReactiveManagementContextAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextFactory' (OnClassCondition)
+
+   TomcatReactiveWebServerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnWebApplication did not find reactive web application classes (OnWebApplicationCondition)
+
+   TomcatServletManagementContextAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextFactory' (OnClassCondition)
+
+   TomcatServletWebServerAutoConfiguration#tomcatForwardedHeaderFilterCustomizer:
+      Did not match:
+         - @ConditionalOnProperty (server.forward-headers-strategy=framework) did not find property 'server.forward-headers-strategy' (OnPropertyCondition)
+
+   TomcatWebServerConfiguration#tomcatVirtualThreadsProtocolHandlerCustomizer:
+      Did not match:
+         - @ConditionalOnThreading did not find VIRTUAL (OnThreadingCondition)
+
+   TransactionAutoConfiguration#transactionalOperator:
+      Did not match:
+         - @ConditionalOnSingleCandidate (types: org.springframework.transaction.ReactiveTransactionManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionAutoConfiguration.AspectJTransactionManagementConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.transaction.aspectj.AbstractTransactionAspect; SearchStrategy: all) did not find any beans of type org.springframework.transaction.aspectj.AbstractTransactionAspect (OnBeanCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration.JdkDynamicAutoProxyConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.aop.proxy-target-class=false) did not find property 'spring.aop.proxy-target-class' (OnPropertyCondition)
+
+   WebMvcAutoConfiguration#hiddenHttpMethodFilter:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.mvc.hiddenmethod.filter.enabled=true) did not find property 'spring.mvc.hiddenmethod.filter.enabled' (OnPropertyCondition)
+
+   WebMvcAutoConfiguration.ProblemDetailsErrorHandlingConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.mvc.problemdetails.enabled=true) did not find property 'spring.mvc.problemdetails.enabled' (OnPropertyCondition)
+
+   WebMvcAutoConfiguration.ResourceChainCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnEnabledResourceChain did not find class org.webjars.WebJarVersionLocator (OnEnabledResourceChainCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#beanNameViewResolver:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.view.BeanNameViewResolver' beanNameViewResolver (OnBeanCondition)
+
+   WebMvcHealthEndpointExtensionAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.health.actuate.endpoint.HealthEndpoint' (OnClassCondition)
+
+   WebMvcMappingsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.actuate.autoconfigure.endpoint.condition.ConditionalOnAvailableEndpoint' (OnClassCondition)
+
+   WebMvcObservationAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.micrometer.observation.autoconfigure.ObservationProperties' (OnClassCondition)
+
+   XADataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.boot.jdbc.XADataSourceWrapper; SearchStrategy: all) did not find any beans of type org.springframework.boot.jdbc.XADataSourceWrapper (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'jakarta.transaction.TransactionManager', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+
+    org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+
+    org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+
+    org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+
+    org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+
+    org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+
+
+
+2026-10-22T23:08:00.879-06:00  INFO 24560 --- [neto-ventas] [           main] c.u.servicioo.ServiciooApplication       : Started ServiciooApplication in 7.105 seconds (process running for 7.809)
+2026-10-22T23:08:00.881-06:00 DEBUG 24560 --- [neto-ventas] [           main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2026-10-22T23:08:01.387-06:00 DEBUG 24560 --- [neto-ventas] [           main] org.hibernate.SQL                        : select count(*) from productos p1_0
+Hibernate: select count(*) from productos p1_0
+2026-10-22T23:08:01.454-06:00 DEBUG 24560 --- [neto-ventas] [           main] org.hibernate.SQL                        : insert into productos (activo,categoria,codigo,nombre,precio) values (?,?,?,?,?)
+Hibernate: insert into productos (activo,categoria,codigo,nombre,precio) values (?,?,?,?,?)
+2026-10-22T23:08:01.491-06:00 DEBUG 24560 --- [neto-ventas] [           main] org.hibernate.SQL                        : insert into productos (activo,categoria,codigo,nombre,precio) values (?,?,?,?,?)
+Hibernate: insert into productos (activo,categoria,codigo,nombre,precio) values (?,?,?,?,?)
+2026-10-22T23:08:01.494-06:00 DEBUG 24560 --- [neto-ventas] [           main] org.hibernate.SQL                        : insert into productos (activo,categoria,codigo,nombre,precio) values (?,?,?,?,?)
+Hibernate: insert into productos (activo,categoria,codigo,nombre,precio) values (?,?,?,?,?)
+2026-10-22T23:08:01.496-06:00 DEBUG 24560 --- [neto-ventas] [           main] org.hibernate.SQL                        : insert into productos (activo,categoria,codigo,nombre,precio) values (?,?,?,?,?)
+Hibernate: insert into productos (activo,categoria,codigo,nombre,precio) values (?,?,?,?,?)
+2026-10-22T23:08:01.498-06:00 DEBUG 24560 --- [neto-ventas] [           main] org.hibernate.SQL                        : insert into productos (activo,categoria,codigo,nombre,precio) values (?,?,?,?,?)
+Hibernate: insert into productos (activo,categoria,codigo,nombre,precio) values (?,?,?,?,?)
+2026-10-22T23:08:01.500-06:00 DEBUG 24560 --- [neto-ventas] [           main] org.hibernate.SQL                        : insert into productos (activo,categoria,codigo,nombre,precio) values (?,?,?,?,?)
+Hibernate: insert into productos (activo,categoria,codigo,nombre,precio) values (?,?,?,?,?)
+2026-10-22T23:08:01.515-06:00 DEBUG 24560 --- [neto-ventas] [           main] org.hibernate.SQL                        : select count(*) from sucursales s1_0
+Hibernate: select count(*) from sucursales s1_0
+2026-10-22T23:08:01.519-06:00 DEBUG 24560 --- [neto-ventas] [           main] org.hibernate.SQL                        : insert into sucursales (activa,codigo,nombre) values (?,?,?)
+Hibernate: insert into sucursales (activa,codigo,nombre) values (?,?,?)
+2026-10-22T23:08:01.522-06:00 DEBUG 24560 --- [neto-ventas] [           main] org.hibernate.SQL                        : insert into sucursales (activa,codigo,nombre) values (?,?,?)
+Hibernate: insert into sucursales (activa,codigo,nombre) values (?,?,?)
+2026-10-22T23:08:01.526-06:00 DEBUG 24560 --- [neto-ventas] [           main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2026-10-22T23:08:12.595-06:00  INFO 24560 --- [neto-ventas] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-22T23:08:12.596-06:00  INFO 24560 --- [neto-ventas] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-22T23:08:12.597-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2026-10-22T23:08:12.597-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2026-10-22T23:08:12.599-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@543196f9
+2026-10-22T23:08:12.599-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@2267b0bb
+2026-10-22T23:08:12.600-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-10-22T23:08:12.601-06:00  INFO 24560 --- [neto-ventas] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-10-22T23:08:12.615-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/ventas", parameters={}
+2026-10-22T23:08:12.634-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.VentaController#listar()
+2026-10-22T23:08:12.680-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] org.hibernate.SQL                        : select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0
+Hibernate: select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0
+2026-10-22T23:08:12.716-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:08:12.719-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Venta@209fb971, com.universidad.servicioo.Venta@1a511ca5]]
+2026-10-22T23:08:12.808-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:08:12.894-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/productos", parameters={}
+2026-10-22T23:08:12.895-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.ProductoController#listar()
+2026-10-22T23:08:13.022-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] org.hibernate.SQL                        : select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where p1_0.activo=true order by p1_0.nombre
+Hibernate: select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where p1_0.activo=true order by p1_0.nombre
+2026-10-22T23:08:13.043-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:08:13.044-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Producto@f16f582, com.universidad.servicioo.Producto@72e18e2e, com.univer (truncated)...]
+2026-10-22T23:08:13.048-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:08:13.063-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/sucursales", parameters={}
+2026-10-22T23:08:13.064-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.SucursalController#listar()
+2026-10-22T23:08:13.069-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] org.hibernate.SQL                        : select s1_0.id,s1_0.activa,s1_0.codigo,s1_0.nombre from sucursales s1_0 where s1_0.activa=true order by s1_0.nombre
+Hibernate: select s1_0.id,s1_0.activa,s1_0.codigo,s1_0.nombre from sucursales s1_0 where s1_0.activa=true order by s1_0.nombre
+2026-10-22T23:08:13.072-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:08:13.073-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Sucursal@10a4291d, com.universidad.servicioo.Sucursal@39e6ee8a]]
+2026-10-22T23:08:13.075-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:08:22.812-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/productos", parameters={}
+2026-10-22T23:08:22.813-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.ProductoController#listar()
+2026-10-22T23:08:22.816-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] org.hibernate.SQL                        : select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where p1_0.activo=true order by p1_0.nombre
+Hibernate: select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where p1_0.activo=true order by p1_0.nombre
+2026-10-22T23:08:22.819-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:08:22.820-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Producto@78fa9cf2, com.universidad.servicioo.Producto@4cbc5712, com.unive (truncated)...]
+2026-10-22T23:08:22.821-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:12:23.755-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/productos", parameters={}
+2026-10-22T23:12:23.755-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/ventas", parameters={}
+2026-10-22T23:12:23.755-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/sucursales", parameters={}
+2026-10-22T23:12:23.764-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.VentaController#listar()
+2026-10-22T23:12:23.764-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.ProductoController#listar()
+2026-10-22T23:12:23.764-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.SucursalController#listar()
+2026-10-22T23:12:23.795-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] org.hibernate.SQL                        : select s1_0.id,s1_0.activa,s1_0.codigo,s1_0.nombre from sucursales s1_0 where s1_0.activa=true order by s1_0.nombre
+2026-10-22T23:12:23.795-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-7] org.hibernate.SQL                        : select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where p1_0.activo=true order by p1_0.nombre
+Hibernate: select s1_0.id,s1_0.activa,s1_0.codigo,s1_0.nombre from sucursales s1_0 where s1_0.activa=true order by s1_0.nombre
+Hibernate: select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where p1_0.activo=true order by p1_0.nombre
+2026-10-22T23:12:23.816-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] org.hibernate.SQL                        : select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0
+Hibernate: select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0
+2026-10-22T23:12:23.834-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:12:23.834-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:12:23.834-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:12:23.836-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Producto@32e4e84b, com.universidad.servicioo.Producto@67492ca2, com.unive (truncated)...]
+2026-10-22T23:12:23.836-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Sucursal@5efcaf7a, com.universidad.servicioo.Sucursal@1bfe3ac1]]
+2026-10-22T23:12:23.836-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Venta@1ef0eaad, com.universidad.servicioo.Venta@65797562]]
+2026-10-22T23:12:23.843-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:12:23.843-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:12:23.843-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:13:24.806-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/api/sucursales", parameters={}
+2026-10-22T23:13:24.810-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.SucursalController#crear(Sucursal)
+2026-10-22T23:13:25.363-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.universidad.servicioo.Sucursal@16c811a7]
+2026-10-22T23:13:25.641-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] org.hibernate.SQL                        : select s1_0.id from sucursales s1_0 where upper(s1_0.codigo)=upper(?) limit ?
+Hibernate: select s1_0.id from sucursales s1_0 where upper(s1_0.codigo)=upper(?) limit ?
+2026-10-22T23:13:25.700-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2026-10-22T23:13:25.717-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Ya existe una sucursal con ese código."]
+2026-10-22T23:13:25.726-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2026-10-22T23:13:38.362-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/sucursales", parameters={}
+2026-10-22T23:13:38.364-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.SucursalController#crear(Sucursal)
+2026-10-22T23:13:38.365-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.universidad.servicioo.Sucursal@51cbcde1]
+2026-10-22T23:13:38.368-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] org.hibernate.SQL                        : select s1_0.id from sucursales s1_0 where upper(s1_0.codigo)=upper(?) limit ?
+Hibernate: select s1_0.id from sucursales s1_0 where upper(s1_0.codigo)=upper(?) limit ?
+2026-10-22T23:13:38.372-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2026-10-22T23:13:38.373-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Ya existe una sucursal con ese código."]
+2026-10-22T23:13:38.375-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2026-10-22T23:13:46.866-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/sucursales", parameters={}
+2026-10-22T23:13:46.868-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.SucursalController#crear(Sucursal)
+2026-10-22T23:13:46.871-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.universidad.servicioo.Sucursal@58cb011a]
+2026-10-22T23:13:46.874-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] org.hibernate.SQL                        : select s1_0.id from sucursales s1_0 where upper(s1_0.codigo)=upper(?) limit ?
+Hibernate: select s1_0.id from sucursales s1_0 where upper(s1_0.codigo)=upper(?) limit ?
+2026-10-22T23:13:46.896-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] org.hibernate.SQL                        : insert into sucursales (activa,codigo,nombre) values (?,?,?)
+Hibernate: insert into sucursales (activa,codigo,nombre) values (?,?,?)
+2026-10-22T23:13:46.922-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:13:46.925-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.universidad.servicioo.Sucursal@58cb011a]
+2026-10-22T23:13:46.929-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2026-10-22T23:13:47.147-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/sucursales", parameters={}
+2026-10-22T23:13:47.149-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.SucursalController#listar()
+2026-10-22T23:13:47.152-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] org.hibernate.SQL                        : select s1_0.id,s1_0.activa,s1_0.codigo,s1_0.nombre from sucursales s1_0 where s1_0.activa=true order by s1_0.nombre
+Hibernate: select s1_0.id,s1_0.activa,s1_0.codigo,s1_0.nombre from sucursales s1_0 where s1_0.activa=true order by s1_0.nombre
+2026-10-22T23:13:47.158-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:13:47.159-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Sucursal@708bd652, com.universidad.servicioo.Sucursal@7e17f477, com.unive (truncated)...]
+2026-10-22T23:13:47.163-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:13:47.290-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/productos", parameters={}
+2026-10-22T23:13:47.292-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.ProductoController#listar()
+2026-10-22T23:13:47.293-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] org.hibernate.SQL                        : select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where p1_0.activo=true order by p1_0.nombre
+Hibernate: select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where p1_0.activo=true order by p1_0.nombre
+2026-10-22T23:13:47.298-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:13:47.299-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Producto@4637227c, com.universidad.servicioo.Producto@335b4de, com.univer (truncated)...]
+2026-10-22T23:13:47.300-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:14:24.748-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/api/ventas", parameters={}
+2026-10-22T23:14:24.749-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.VentaController#crear(Venta)
+2026-10-22T23:14:24.774-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.universidad.servicioo.Venta@66bfcbcd]
+2026-10-22T23:14:24.813-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] org.hibernate.SQL                        : select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where upper(p1_0.nombre)=upper(?) and p1_0.activo=true limit ?
+Hibernate: select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where upper(p1_0.nombre)=upper(?) and p1_0.activo=true limit ?
+2026-10-22T23:14:24.866-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] org.hibernate.SQL                        : insert into ventas (cantidad,fecha,precio_unitario,producto,sucursal,total) values (?,?,?,?,?,?)
+Hibernate: insert into ventas (cantidad,fecha,precio_unitario,producto,sucursal,total) values (?,?,?,?,?,?)
+2026-10-22T23:14:24.881-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:14:24.882-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.universidad.servicioo.Venta@66bfcbcd]
+2026-10-22T23:14:24.885-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2026-10-22T23:14:25.204-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/ventas", parameters={}
+2026-10-22T23:14:25.206-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.VentaController#listar()
+2026-10-22T23:14:25.210-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-6] org.hibernate.SQL                        : select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0
+Hibernate: select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0
+2026-10-22T23:14:25.215-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:14:25.215-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Venta@6516f59b, com.universidad.servicioo.Venta@260f61f8, com.universidad (truncated)...]
+2026-10-22T23:14:25.217-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:15:20.817-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : PUT "/api/ventas/1", parameters={}
+2026-10-22T23:15:20.827-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.VentaController#actualizar(Long, Venta)
+2026-10-22T23:15:20.846-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.universidad.servicioo.Venta@72cc063c]
+2026-10-22T23:15:20.885-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] org.hibernate.SQL                        : select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0 where v1_0.id=?
+Hibernate: select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0 where v1_0.id=?
+2026-10-22T23:15:20.896-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] org.hibernate.SQL                        : select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where upper(p1_0.nombre)=upper(?) and p1_0.activo=true limit ?
+Hibernate: select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where upper(p1_0.nombre)=upper(?) and p1_0.activo=true limit ?
+2026-10-22T23:15:20.913-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] org.hibernate.SQL                        : select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0 where v1_0.id=?
+Hibernate: select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0 where v1_0.id=?
+2026-10-22T23:15:20.938-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] org.hibernate.SQL                        : update ventas set cantidad=?,fecha=?,precio_unitario=?,producto=?,sucursal=?,total=? where id=?
+Hibernate: update ventas set cantidad=?,fecha=?,precio_unitario=?,producto=?,sucursal=?,total=? where id=?
+2026-10-22T23:15:20.977-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:15:20.978-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.universidad.servicioo.Venta@29794b95]
+2026-10-22T23:15:20.980-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:15:21.291-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/ventas", parameters={}
+2026-10-22T23:15:21.318-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.VentaController#listar()
+2026-10-22T23:15:21.322-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] org.hibernate.SQL                        : select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0
+Hibernate: select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0
+2026-10-22T23:15:21.327-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:15:21.327-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Venta@7f9fdaf6, com.universidad.servicioo.Venta@402f1012, com.universidad (truncated)...]
+2026-10-22T23:15:21.328-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:22:08.906-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/sucursales", parameters={}
+2026-10-22T23:22:08.906-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/productos", parameters={}
+2026-10-22T23:22:08.906-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/ventas", parameters={}
+2026-10-22T23:22:08.917-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.VentaController#listar()
+2026-10-22T23:22:08.918-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.SucursalController#listar()
+2026-10-22T23:22:08.918-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.ProductoController#listar()
+2026-10-22T23:22:08.942-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] org.hibernate.SQL                        : select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where p1_0.activo=true order by p1_0.nombre
+2026-10-22T23:22:08.942-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] org.hibernate.SQL                        : select s1_0.id,s1_0.activa,s1_0.codigo,s1_0.nombre from sucursales s1_0 where s1_0.activa=true order by s1_0.nombre
+Hibernate: select s1_0.id,s1_0.activa,s1_0.codigo,s1_0.nombre from sucursales s1_0 where s1_0.activa=true order by s1_0.nombre
+Hibernate: select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where p1_0.activo=true order by p1_0.nombre
+2026-10-22T23:22:08.952-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-7] org.hibernate.SQL                        : select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0
+Hibernate: select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0
+2026-10-22T23:22:08.966-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:22:08.966-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:22:08.966-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:22:08.968-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Producto@7a47c92, com.universidad.servicioo.Producto@3e94b51e, com.univer (truncated)...]
+2026-10-22T23:22:08.968-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Sucursal@74818ed7, com.universidad.servicioo.Sucursal@135880b2, com.unive (truncated)...]
+2026-10-22T23:22:08.968-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Venta@1bcfca25, com.universidad.servicioo.Venta@60fe0845, com.universidad (truncated)...]
+2026-10-22T23:22:08.977-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:22:08.977-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:22:08.978-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:23:45.626-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/ventas", parameters={}
+2026-10-22T23:23:45.626-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/productos", parameters={}
+2026-10-22T23:23:45.626-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/sucursales", parameters={}
+2026-10-22T23:23:45.641-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.SucursalController#listar()
+2026-10-22T23:23:45.641-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.VentaController#listar()
+2026-10-22T23:23:45.644-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.ProductoController#listar()
+2026-10-22T23:23:45.671-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] org.hibernate.SQL                        : select s1_0.id,s1_0.activa,s1_0.codigo,s1_0.nombre from sucursales s1_0 where s1_0.activa=true order by s1_0.nombre
+Hibernate: select s1_0.id,s1_0.activa,s1_0.codigo,s1_0.nombre from sucursales s1_0 where s1_0.activa=true order by s1_0.nombre
+2026-10-22T23:23:45.684-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] org.hibernate.SQL                        : select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0
+Hibernate: select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0
+2026-10-22T23:23:45.696-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] org.hibernate.SQL                        : select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where p1_0.activo=true order by p1_0.nombre
+Hibernate: select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where p1_0.activo=true order by p1_0.nombre
+2026-10-22T23:23:45.703-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:23:45.703-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:23:45.704-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:23:45.706-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Venta@60da366f, com.universidad.servicioo.Venta@4216e7e4, com.universidad (truncated)...]
+2026-10-22T23:23:45.706-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Sucursal@56a3dbb4, com.universidad.servicioo.Sucursal@67545432, com.unive (truncated)...]
+2026-10-22T23:23:45.706-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Producto@60904cb2, com.universidad.servicioo.Producto@2f7c2d50, com.unive (truncated)...]
+2026-10-22T23:23:45.716-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:23:45.716-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:23:45.716-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:26:19.279-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/productos", parameters={}
+2026-10-22T23:26:19.279-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/ventas", parameters={}
+2026-10-22T23:26:19.292-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.ProductoController#listar()
+2026-10-22T23:26:19.292-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.VentaController#listar()
+2026-10-22T23:26:19.327-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] org.hibernate.SQL                        : select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where p1_0.activo=true order by p1_0.nombre
+Hibernate: select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where p1_0.activo=true order by p1_0.nombre
+2026-10-22T23:26:19.337-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-6] org.hibernate.SQL                        : select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0
+Hibernate: select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0
+2026-10-22T23:26:19.347-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:26:19.347-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:26:19.349-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Venta@3badf2b1, com.universidad.servicioo.Venta@4f9dbf58, com.universidad (truncated)...]
+2026-10-22T23:26:19.349-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Producto@408ff983, com.universidad.servicioo.Producto@582c7b94, com.unive (truncated)...]
+2026-10-22T23:26:19.355-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:26:19.355-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:26:19.548-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/sucursales", parameters={}
+2026-10-22T23:26:19.549-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.SucursalController#listar()
+2026-10-22T23:26:19.550-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] org.hibernate.SQL                        : select s1_0.id,s1_0.activa,s1_0.codigo,s1_0.nombre from sucursales s1_0 where s1_0.activa=true order by s1_0.nombre
+Hibernate: select s1_0.id,s1_0.activa,s1_0.codigo,s1_0.nombre from sucursales s1_0 where s1_0.activa=true order by s1_0.nombre
+2026-10-22T23:26:19.555-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:26:19.556-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Sucursal@31fc5448, com.universidad.servicioo.Sucursal@43d2e75d, com.unive (truncated)...]
+2026-10-22T23:26:19.557-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:26:19.672-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/productos", parameters={}
+2026-10-22T23:26:19.673-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/ventas", parameters={}
+2026-10-22T23:26:19.673-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.ProductoController#listar()
+2026-10-22T23:26:19.674-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.VentaController#listar()
+2026-10-22T23:26:19.676-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] org.hibernate.SQL                        : select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where p1_0.activo=true order by p1_0.nombre
+Hibernate: select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where p1_0.activo=true order by p1_0.nombre
+2026-10-22T23:26:19.677-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] org.hibernate.SQL                        : select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0
+Hibernate: select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0
+2026-10-22T23:26:19.684-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/sucursales", parameters={}
+2026-10-22T23:26:19.684-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:26:19.685-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.SucursalController#listar()
+2026-10-22T23:26:19.685-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Venta@3435c261, com.universidad.servicioo.Venta@7f9340eb, com.universidad (truncated)...]
+2026-10-22T23:26:19.685-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:26:19.686-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Producto@40dc646d, com.universidad.servicioo.Producto@775699e7, com.unive (truncated)...]
+2026-10-22T23:26:19.687-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] org.hibernate.SQL                        : select s1_0.id,s1_0.activa,s1_0.codigo,s1_0.nombre from sucursales s1_0 where s1_0.activa=true order by s1_0.nombre
+Hibernate: select s1_0.id,s1_0.activa,s1_0.codigo,s1_0.nombre from sucursales s1_0 where s1_0.activa=true order by s1_0.nombre
+2026-10-22T23:26:19.687-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:26:19.687-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:26:19.690-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:26:19.691-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Sucursal@671fbb5f, com.universidad.servicioo.Sucursal@41f7f3ee, com.unive (truncated)...]
+2026-10-22T23:26:19.693-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:29:48.370-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/productos", parameters={}
+2026-10-22T23:29:48.370-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/sucursales", parameters={}
+2026-10-22T23:29:48.370-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/ventas", parameters={}
+2026-10-22T23:29:48.378-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.ProductoController#listar()
+2026-10-22T23:29:48.378-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.VentaController#listar()
+2026-10-22T23:29:48.378-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.SucursalController#listar()
+2026-10-22T23:29:48.397-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] org.hibernate.SQL                        : select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where p1_0.activo=true order by p1_0.nombre
+2026-10-22T23:29:48.397-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] org.hibernate.SQL                        : select s1_0.id,s1_0.activa,s1_0.codigo,s1_0.nombre from sucursales s1_0 where s1_0.activa=true order by s1_0.nombre
+Hibernate: select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where p1_0.activo=true order by p1_0.nombre
+Hibernate: select s1_0.id,s1_0.activa,s1_0.codigo,s1_0.nombre from sucursales s1_0 where s1_0.activa=true order by s1_0.nombre
+2026-10-22T23:29:48.405-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-7] org.hibernate.SQL                        : select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0
+Hibernate: select v1_0.id,v1_0.cantidad,v1_0.fecha,v1_0.precio_unitario,v1_0.producto,v1_0.sucursal,v1_0.total from ventas v1_0
+2026-10-22T23:29:48.420-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:29:48.420-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:29:48.420-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:29:48.422-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Producto@53760345, com.universidad.servicioo.Producto@56bc98d3, com.unive (truncated)...]
+2026-10-22T23:29:48.422-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Sucursal@40bdd112, com.universidad.servicioo.Sucursal@4591debe, com.unive (truncated)...]
+2026-10-22T23:29:48.422-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Venta@74bacbe3, com.universidad.servicioo.Venta@3ccfca4d, com.universidad (truncated)...]
+2026-10-22T23:29:48.429-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:29:48.434-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:29:48.434-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:29:52.025-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/auditoria", parameters={}
+2026-10-22T23:29:52.187-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-10-22T23:29:52.218-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found for path [api/auditoria]
+2026-10-22T23:29:52.272-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/auditoria for request '/api/auditoria'.]
+2026-10-22T23:29:52.273-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2026-10-22T23:29:52.336-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2026-10-22T23:29:52.342-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController#error(HttpServletRequest)
+2026-10-22T23:29:52.367-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:29:52.370-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Oct 22 23:29:52 CST 2026, status=404, error=Not Found, path=/api/auditoria}]
+2026-10-22T23:29:52.413-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2026-10-22T23:30:31.402-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/api/sucursales", parameters={}
+2026-10-22T23:30:31.404-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.SucursalController#crear(Sucursal)
+2026-10-22T23:30:31.415-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.universidad.servicioo.Sucursal@17e49da8]
+2026-10-22T23:30:31.442-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] org.hibernate.SQL                        : select s1_0.id from sucursales s1_0 where upper(s1_0.codigo)=upper(?) limit ?
+Hibernate: select s1_0.id from sucursales s1_0 where upper(s1_0.codigo)=upper(?) limit ?
+2026-10-22T23:30:31.493-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] org.hibernate.SQL                        : insert into sucursales (activa,codigo,nombre) values (?,?,?)
+Hibernate: insert into sucursales (activa,codigo,nombre) values (?,?,?)
+2026-10-22T23:30:31.533-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:30:31.533-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.universidad.servicioo.Sucursal@17e49da8]
+2026-10-22T23:30:31.535-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2026-10-22T23:30:31.671-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/sucursales", parameters={}
+2026-10-22T23:30:31.673-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.SucursalController#listar()
+2026-10-22T23:30:31.678-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-6] org.hibernate.SQL                        : select s1_0.id,s1_0.activa,s1_0.codigo,s1_0.nombre from sucursales s1_0 where s1_0.activa=true order by s1_0.nombre
+Hibernate: select s1_0.id,s1_0.activa,s1_0.codigo,s1_0.nombre from sucursales s1_0 where s1_0.activa=true order by s1_0.nombre
+2026-10-22T23:30:31.684-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:30:31.685-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Sucursal@278bbbd5, com.universidad.servicioo.Sucursal@4908a4e2, com.unive (truncated)...]
+2026-10-22T23:30:31.687-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:30:31.879-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/productos", parameters={}
+2026-10-22T23:30:31.891-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.universidad.servicioo.ProductoController#listar()
+2026-10-22T23:30:31.893-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] org.hibernate.SQL                        : select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where p1_0.activo=true order by p1_0.nombre
+Hibernate: select p1_0.id,p1_0.activo,p1_0.categoria,p1_0.codigo,p1_0.nombre,p1_0.precio from productos p1_0 where p1_0.activo=true order by p1_0.nombre
+2026-10-22T23:30:31.898-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:30:31.899-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.universidad.servicioo.Producto@5d8d75f, com.universidad.servicioo.Producto@44125c39, com.univer (truncated)...]
+2026-10-22T23:30:31.900-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-22T23:30:37.464-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/auditoria", parameters={}
+2026-10-22T23:30:37.466-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-10-22T23:30:37.490-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found for path [api/auditoria]
+2026-10-22T23:30:37.491-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/auditoria for request '/api/auditoria'.]
+2026-10-22T23:30:37.493-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2026-10-22T23:30:37.495-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2026-10-22T23:30:37.497-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController#error(HttpServletRequest)
+2026-10-22T23:30:37.499-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:30:37.499-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Oct 22 23:30:37 CST 2026, status=404, error=Not Found, path=/api/auditoria}]
+2026-10-22T23:30:37.502-06:00 DEBUG 24560 --- [neto-ventas] [io-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2026-10-22T23:32:38.422-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/auditoria", parameters={}
+2026-10-22T23:32:38.430-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-10-22T23:32:38.434-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found for path [api/auditoria]
+2026-10-22T23:32:38.436-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/auditoria for request '/api/auditoria'.]
+2026-10-22T23:32:38.437-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2026-10-22T23:32:38.439-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2026-10-22T23:32:38.440-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController#error(HttpServletRequest)
+2026-10-22T23:32:38.444-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:32:38.446-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Oct 22 23:32:38 CST 2026, status=404, error=Not Found, path=/api/auditoria}]
+2026-10-22T23:32:38.452-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2026-10-22T23:32:47.343-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/auditoria", parameters={}
+2026-10-22T23:32:47.360-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-10-22T23:32:47.363-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found for path [api/auditoria]
+2026-10-22T23:32:47.364-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/auditoria for request '/api/auditoria'.]
+2026-10-22T23:32:47.365-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2026-10-22T23:32:47.366-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2026-10-22T23:32:47.367-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController#error(HttpServletRequest)
+2026-10-22T23:32:47.369-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-10-22T23:32:47.371-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Oct 22 23:32:47 CST 2026, status=404, error=Not Found, path=/api/auditoria}]
+2026-10-22T23:32:47.373-06:00 DEBUG 24560 --- [neto-ventas] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+[INFO] ------------------------------------------------------------------------
+[ERROR] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  25:12 min
+[INFO] Finished at: 2026-10-22T23:33:01-06:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:4.1.1:run (default-cli) on project neto-ventas: Process terminated with exit code: -1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

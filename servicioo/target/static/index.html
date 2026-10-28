@@ -1,0 +1,49 @@
+<!--
+  Archivo: index.html
+  Descripción: Interfaz web para gestionar estudiantes (consume la API /api/estudiantes).
+  Origen: Elaborado con apoyo de Claude y adaptado por el autor.
+  Autor: [Tu nombre]
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestión de Estudiantes</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <main>
+    <h1>Gestión de Estudiantes</h1>
+
+    <!-- Formulario para crear o editar un estudiante -->
+    <form id="formulario">
+      <input type="hidden" id="id"> <!-- Vacío al crear; con valor al editar -->
+
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" required>
+
+      <label for="carrera">Carrera</label>
+      <input type="text" id="carrera" required>
+
+      <div class="botones">
+        <button type="submit" id="btnGuardar">Guardar</button>
+        <button type="button" id="btnCancelar">Cancelar</button>
+      </div>
+    </form>
+
+    <!-- Aquí se muestran mensajes de éxito o error -->
+    <p id="mensaje" role="status"></p>
+
+    <!-- Tabla con la lista de estudiantes -->
+    <table>
+      <thead>
+        <tr><th>ID</th><th>Nombre</th><th>Carrera</th><th>Acciones</th></tr>
+      </thead>
+      <tbody id="tabla"></tbody>
+    </table>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
